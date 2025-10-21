@@ -13,19 +13,19 @@ Requirement analysis is a phase in the Software Development Life Cycle where the
 
 
 ## Key Activities in Requirement Analysis
-- Requirement Gathering
+- Requirement Gathering:
 During this phase, information is collected from stakeholders to understand what they expect from the system. Techniques used include questionnaires, observations and interviews.
 
-- Requirement Elicitation
+- Requirement Elicitation:
 Here, brainstorming sessions are conducted to generate ideas from the requirements gathered. This helps to clarify vague requirements.
 
-- Requirement Documentation
+- Requirement Documentation:
 The requirements gathered are organised and documented. This document serves as a reference point for all stakeholders.
 
-- Requirement Analysis and Modeling
+- Requirement Analysis and Modeling:
 The requirements gathered are refined and reviewed to ensure they are complete and consistent. Requirements are also prioritised based on their importance or impact on the project. Usecases or ER diagrams may be created to represent the system behaviour and structure.
 
-- Requirement Validation
+- Requirement Validation:
 Documented requirements are validated with stakeholders to confirm that they're accurate and feasible. This helps to ensure that the stakeholders needs are met.
 
 
@@ -46,4 +46,19 @@ This defines how the system should perform and not what it does. It focuses on s
 - The system must handle high user traffic and allow scaling
 - The system must provide fast search results using caching and replication to reduce response time.
 - The system must support data archiving and manage large volumes of historical data.
+
+
+## Use Case Diagrams
+Usecase diagrams show how different users interact with the system to achieve specific goals. Usecase diagrams help to provide a clear visual representation of system functionalities and help in identifying and organising system requirements.
+
+![UseCase Diagram](alx-booking-uc.png)
+
+
+## Acceptance Criteria
+Acceptance criteria are the conditions that a feature must meet to be accepted bu stakeholders. It must be specific and measurable and contain functional and non functional requirements.
+
+### Acceptance Criteria for a checkout feature
+- When a user clicks checkout, the checkout information must be provided.
+- Give notification that booking is confirmed.
+
 
